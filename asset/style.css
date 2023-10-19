@@ -7,26 +7,45 @@
     text-decoration: underline;
 }
 
-.wrapper {
-    background: grey;
+body {
+    background-color: white;
 }
 
+.wrapper {}
+
 .container {
-    width: 1200px;
+    width: 100%;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Background content */
+    background-color: blueviolet;
 }
 
 .sidebar {
     width: 400px;
     height: 600px;
-    background: red;
     float: left;
 }
 
 .content {
     width: 790px;
     height: 600px;
-    padding-left: 10px;
-    background: blueviolet;
     float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#logo {
+    float: left;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+
+#logo img {
+    max-width: 100px;
+    height: auto;
 }
