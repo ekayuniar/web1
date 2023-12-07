@@ -29,14 +29,25 @@
             });
         });
     </script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("p").css("background-color", "yellow");
+            });
+        });
+    </script>
 </head>
 
 <body>
-    <p>Kalimat Paragraf Pertama.HILANG</p>
-    <p>Kalimat Paragraf Kedua.HILANG</p>
+    <p style="background-color:#ff0000">Kalimat Paragraf Pertama.HILANG</p>
+    <p style="background-color:#00ff00">Kalimat Paragraf Kedua.HILANG</p>
     <!-- <button id="button">HIDE</button> -->
     <button id="hide">Hide</button>
     <button id="show">Show</button>
+
+    <h2>Setting CSS</h2>
+
+    <button>Ganti warna dari p class</button>
 </body>
 
 </html>
